@@ -9,3 +9,11 @@
 // Если строки равны, вывести "Строка - палиндром".
 // Иначе, вывести "Строка - не палиндром".
 // Конец.
+const string = "qqqewewqe";
+const newString = string.split('').reverse().join('');;
+if (string === newString) {
+    console.log("Строка - палиндром");
+} else {
+    console.log("Строка - не палиндром");
+
+}

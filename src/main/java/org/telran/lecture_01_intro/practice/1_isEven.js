@@ -8,3 +8,13 @@
 
 // Решение
 
+const number = Number(prompt());
+if (!isNaN(number)) {
+    if (number % 2 == 0) {
+        console.log("четное");
+    } else {
+        console.log("нечетное");
+    }
+} else {
+    console.log("Это не число!");
+}

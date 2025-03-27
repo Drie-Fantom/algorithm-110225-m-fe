@@ -9,3 +9,7 @@
 // Добавить символ в конец результирующей строки.
 // Вывести результирующую строку.
 // Конец.
+
+const string = "qwertyuiop";
+const newString = string.split('').reverse().join('');
+console.log(newString);
